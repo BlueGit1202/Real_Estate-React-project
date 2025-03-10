@@ -92,7 +92,7 @@ class Slider1 extends Component {
           <div className="items" key={index}>
             <div className="amenit-box">
               <div className="media">
-                <a href={item.url} style={{ width: "100%" }}>
+                <a href={item.url} target="_blank" style={{ width: "100%" }}>
                   <img src={item.image} alt="" style={{ width: "100%" }} />
                 </a>
               </div>
@@ -100,7 +100,7 @@ class Slider1 extends Component {
                 <h5 className="title">
                   <i className="ti-home" />
                   <span>
-                    <a href={item.url}>
+                    <a href={item.url} target="_blank">
                       {item.title}
                     </a>
                   </span>

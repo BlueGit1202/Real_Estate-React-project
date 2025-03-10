@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 import logo1 from './../../images/logo/logo1.png';
 import logo2 from './../../images/logo/logo2.png';
+import logo3 from './../../images/logo/logo3.png';
 import logo from './../../images/logo.png';
 
 class Footer extends Component{
@@ -77,6 +78,7 @@ function Footercol3(){
 			   <ul>
 					<li><Link to={"#"}><img src={logo1} alt=""/></Link></li>
 					<li><Link to={"#"}><img src={logo2} alt=""/></Link></li>
+					<li><Link to={"#"}><img src={logo3} alt=""/></Link></li>
 			   </ul>
 			</div>
 		</>
@@ -88,20 +90,7 @@ function Footerbottom(){
 		<>
 			<div className="container">
 				<div className="row">
-					<div className="col-md-6 col-sm-12 text-md-left text-center"> <span>© 2025 Arziyat. All Right Reserved</span> </div>
-					<div className="col-md-6 col-sm-12 text-md-right text-center"> 
-						<div className="widget-link "> 
-							<ul>
-								<li>About</li>
-								<li>
-    <Link to={"/contact-us-1"} target="_blank" rel="noopener noreferrer">
-        Contact Us
-    </Link>
-</li>
-								<li>Privacy Policy</li>
-							</ul>
-						</div>
-					</div>
+					<div className="col-md-12 col-sm-12 text-center"> <span>© 2025 Arziyat. All Right Reserved</span> </div>
 				</div>
 			</div>
 		</>

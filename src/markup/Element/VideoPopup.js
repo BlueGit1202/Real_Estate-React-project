@@ -14,7 +14,7 @@ const VideoPopup = () => {
         onClose={() => setOpen(false)}
       />
       <button
-        className="popup-youtube slide-play-button border-0"
+        className="popup-youtube slide-play-button border-0 bg-danger"
         onClick={() => setOpen(true)}
       >
         <i className="fa fa-play" />
@@ -39,7 +39,7 @@ const VideoPopup2 = () => {
         className="popup-youtube slide-play-button border-0"
         onClick={() => setOpen(true)}
       >
-        <i className="fa fa-play" style={{ color: "#a6611c" }} />
+        <i className="fa fa-play" style={{ color: "#E50202" }} />
       </button>
     </React.Fragment>
   );

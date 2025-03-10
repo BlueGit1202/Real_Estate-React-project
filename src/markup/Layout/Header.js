@@ -94,7 +94,7 @@ function HeaderContent(){
 					{/*extra nav  */}
 					<div className="extra-nav">
 						<div className="extra-cell">
-							<a href="https://realestate.arziyat.com/index.php/about-maven/" className="btn btn-primary btnhover13" target="_blank">About Maven</a>
+							<a href="https://realestate.arziyat.com/index.php/about-maven/" className="btn btn-danger btnhover13" target="_blank">About Maven</a>
 						</div>
 					</div>
 					<div className="header-nav navbar-collapse collapse myNavbar justify-content-end" id="navbarNavDropdown">

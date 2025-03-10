@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.f92fce3e.css",
-    "main.js": "./static/js/main.230a096f.js",
+    "main.css": "./static/css/main.8896c64b.css",
+    "main.js": "./static/js/main.ce457191.js",
     "static/js/422.ba0d31d2.chunk.js": "./static/js/422.ba0d31d2.chunk.js",
     "static/media/pic1.jpg": "./static/media/pic1.6d5a27e497547884d5bc.jpg",
     "static/media/pic3.jpg": "./static/media/pic3.d3e5f67422d0bfdddd6f.jpg",
@@ -15,6 +15,7 @@
     "static/media/bg-view.png": "./static/media/bg-view.20addc05508d51ab6084.png",
     "static/media/Flaticon.svg": "./static/media/Flaticon.16afafd23c0cee7fd43b.svg",
     "static/media/about.png": "./static/media/about.24c380600abf3ae2b289.png",
+    "static/media/about2.jpg": "./static/media/about2.d7ebc0a52dd0f248cc48.jpg",
     "static/media/themify.svg?-fvbane": "./static/media/themify.f0fc8c798eac5636249c.svg",
     "static/media/la-solid-900.eot": "./static/media/la-solid-900.4184d740eae2fb727bfe.eot",
     "static/media/la-solid-900.ttf": "./static/media/la-solid-900.279f38601f1d1655255f.ttf",
@@ -65,12 +66,12 @@
     "static/media/loading.svg": "./static/media/loading.46e3fe6f377af6709a8d.svg",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.f92fce3e.css.map": "./static/css/main.f92fce3e.css.map",
-    "main.230a096f.js.map": "./static/js/main.230a096f.js.map",
+    "main.8896c64b.css.map": "./static/css/main.8896c64b.css.map",
+    "main.ce457191.js.map": "./static/js/main.ce457191.js.map",
     "422.ba0d31d2.chunk.js.map": "./static/js/422.ba0d31d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f92fce3e.css",
-    "static/js/main.230a096f.js"
+    "static/css/main.8896c64b.css",
+    "static/js/main.ce457191.js"
   ]
 }

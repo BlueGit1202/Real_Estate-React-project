@@ -76,11 +76,11 @@ class Index1 extends React.Component {
                     <div className="banner-content">
                       <h1 className=" title  m-b20">
                         Helping you to Buy,<br />Sell and Rent out<br />your
-                        Stuff with Arziyat{" "}
+                        Stuff with <span className="text-danger">Arziyat</span>
                       </h1>
                       <a
                         href="https://realestate.arziyat.com/index.php/contact-us/"
-                        className="btn btn-primary"
+                        className="btn btn-danger"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -130,7 +130,7 @@ class Index1 extends React.Component {
                     with a view to benefit all segments of this trade through
                     provision of equal opportunities for everyone
                   </div>
-                  <Link to={"/about-us-1"} className="btn btn-primary ">
+                  <Link to={"/about-us-1"} className="btn btn-danger ">
                     About Us
                   </Link>
                 </div>
@@ -139,189 +139,6 @@ class Index1 extends React.Component {
             </div>
           </section>
           {/* Section-3 End*/}
-          {/* Section-6 Start*/}
-          <section
-            className="content-inner-2"
-            data-content="OUR SERVICES"
-            id="sidenav_ourServices"
-          >
-            <div className="container">
-              <div className="row align-items-end section-head">
-                <div className="col-md-6">
-                  <h2 className="title">Building & Services</h2>
-                  <div className="dlab-separator bg-primary" />
-                  <p className="mb-3 mb-md-0">
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form
-                  </p>
-                </div>
-                <div className="col-md-6 text-md-right">
-                  <Link to={"./blog-grid"} className="btn btn-primary">
-                    View All Services
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div
-              className="service-area"
-              style={{ backgroundImage: "url(" + main1 + ")" }}
-            >
-              <div className="row spno service-row">
-                <div className="col ">
-                  <div className="service-box">
-                    <div className="media">
-                      <img src={services1} alt="" />
-                    </div>
-                    <div className="info">
-                      <Link to={"./blog-details"}>
-                        <h4 className="title">24 HRS. Water Supply</h4>
-                      </Link>
-                      <p>
-                        The KingArchitect is a collection of grand proportioned.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="service-box">
-                    <div className="media">
-                      <img src={services2} alt="" />
-                    </div>
-                    <div className="info">
-                      <Link to={"./blog-details"}>
-                        <h4 className="title">CCTV With Intercom</h4>
-                      </Link>
-                      <p>
-                        The KingArchitect is a collection of grand proportioned.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col ">
-                  <div className="service-box">
-                    <div className="media">
-                      <img src={services3} alt="" />
-                    </div>
-                    <div className="info">
-                      <Link to={"./blog-details"}>
-                        <h4 className="title">Power Backup</h4>
-                      </Link>
-                      <p>
-                        The KingArchitect is a collection of grand proportioned.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col ">
-                  <div className="service-box">
-                    <div className="media">
-                      <img src={services4} alt="" />
-                    </div>
-                    <div className="info">
-                      <Link to={"./blog-details"}>
-                        <h4 className="title">DTH Facilitiy</h4>
-                      </Link>
-                      <p>
-                        The KingArchitect is a collection of grand proportioned.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="service-box">
-                    <div className="media">
-                      <img src={services5} alt="" />
-                    </div>
-                    <div className="info">
-                      <Link to={"./blog-details"}>
-                        <h4 className="title">Rain Water Harvesting</h4>
-                      </Link>
-                      <p>
-                        The KingArchitect is a collection of grand proportioned.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="service-box">
-                    <div className="media">
-                      <img src={services6} alt="" />
-                    </div>
-                    <div className="info">
-                      <Link to={"./blog-details"}>
-                        <h4 className="title">Fully Automatic Lifts</h4>
-                      </Link>
-                      <p>
-                        The KingArchitect is a collection of grand proportioned.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="service-box">
-                    <div className="media">
-                      <img src={services7} alt="" />
-                    </div>
-                    <div className="info">
-                      <Link to={"./blog-details"}>
-                        <h4 className="title">Allotted Parking</h4>
-                      </Link>
-                      <p>
-                        The KingArchitect is a collection of grand proportioned.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="service-box">
-                    <div className="media">
-                      <img src={services8} alt="" />
-                    </div>
-                    <div className="info">
-                      <Link to={"./blog-details"}>
-                        <h4 className="title">Fire Fighting System</h4>
-                      </Link>
-                      <p>
-                        The KingArchitect is a collection of grand proportioned.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="service-box">
-                    <div className="media">
-                      <img src={services9} alt="" />
-                    </div>
-                    <div className="info">
-                      <Link to={"./blog-details"}>
-                        <h4 className="title">Security</h4>
-                      </Link>
-                      <p>
-                        The KingArchitect is a collection of grand proportioned.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="service-box">
-                    <div className="media">
-                      <img src={services10} alt="" />
-                    </div>
-                    <div className="info">
-                      <Link to={"./blog-details"}>
-                        <h4 className="title">Tow Level Parking</h4>
-                      </Link>
-                      <p>
-                        The KingArchitect is a collection of grand proportioned.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* Section-6 End*/}
           {/* Section-7 Start*/}
           <section
             className="content-inner-2"

@@ -12874,6 +12874,28 @@ label.error {
       border-radius: 0;
       background: transparent; }
 
+.about-bg1 {
+  background-image: url(../images/about/about2.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  animation: wave2 3s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite; }
+  @media only screen and (max-width: 1400px) {
+    .about-bg1 {
+      background-size: 65%; } }
+  @media only screen and (max-width: 1199px) {
+    .about-bg1 {
+      background-size: 92%;
+      background-position: right -220px bottom; } }
+  @media only screen and (max-width: 575px) {
+    .about-bg1 {
+      background-size: 50%;
+      background-position: right 0px bottom; } }
+
 .about-box .about-bg {
   background-image: url(../images/about/about.png);
   background-repeat: no-repeat;
@@ -13254,7 +13276,7 @@ label.error {
   align-items: center; }
   .readmore i {
     width: 40px;
-    background: #a6611c;
+    background: #E50202;
     height: 40px;
     color: #fff;
     font-size: 24px;

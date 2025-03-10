@@ -9,6 +9,7 @@ import CompanyHistory from "./Pages/CompanyHistory";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import ErrorPage from "./Pages/ErrorPage";
 import ComingSoon from "./Pages/ComingSoon";
+import NewsAndEvent from "./Pages/Homepage/NewsAndEvent";
 
 import SubscriptionBox1 from "./Pages/SubscriptionBox/SubscriptionBox1";
 import SubscriptionBox2 from "./Pages/SubscriptionBox/SubscriptionBox2";
@@ -46,6 +47,7 @@ class Markup extends Component {
               component={SubscriptionBox2}
             />
             <Route path="/contact-us-1" exact component={ContactUs1} />
+            <Route path="/news-event" exact component={NewsAndEvent} />
           </Switch>
         </div>
         <ScrollToTop />
