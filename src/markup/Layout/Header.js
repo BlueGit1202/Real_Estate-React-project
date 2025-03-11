@@ -116,10 +116,10 @@ function HeaderContent(){
 						</ul>
 						<div className="dlab-social-icon">
 							<ul>
-								<li><a href='https://www.youtube.com/@arziyatclassifiedplatform5549' className="fa fa-youtube"></a></li>
-						<li><a href="https://www.facebook.com/ArziyatOfficial" className="fa fa-facebook mr-1"></a></li>
-						<li><a href='https://www.instagram.com/arziyatofficial/' className="fa fa-instagram"></a></li>
-						<li><a href='https://www.pinterest.com/arziyatcom' className="fa fa-pinterest"></a></li>
+								<li><a href='https://www.youtube.com/@arziyatclassifiedplatform5549' target='_blank' className="fa fa-youtube"></a></li>
+						<li><a href="https://www.facebook.com/ArziyatOfficial" target='_blank' className="fa fa-facebook mr-1"></a></li>
+						<li><a href='https://www.instagram.com/arziyatofficial/' target='_blank' className="fa fa-instagram"></a></li>
+						<li><a href='https://www.pinterest.com/arziyatcom' target='_blank' className="fa fa-pinterest"></a></li>
 							</ul>
 						</div>		
 					</div>

@@ -45,10 +45,10 @@ function Footercol1(){
 				<p>Surround yourself with fresh energy, high-tech amenities, and elevated style. Indulge in extraordinary amenities, relax in appealing social spaces.</p>
 				<div className="dlab-social-icon">
 					<ul>
-						<li><a href='https://www.youtube.com/@arziyatclassifiedplatform5549' className="fa fa-youtube"></a></li>
-						<li><a href="https://www.facebook.com/ArziyatOfficial" className="fa fa-facebook mr-1"></a></li>
-						<li><a href='https://www.instagram.com/arziyatofficial/' className="fa fa-instagram"></a></li>
-						<li><a href='https://www.pinterest.com/arziyatcom' className="fa fa-pinterest"></a></li>
+						<li><a href='https://www.youtube.com/@arziyatclassifiedplatform5549' target='_blank' className="fa fa-youtube"></a></li>
+						<li><a href="https://www.facebook.com/ArziyatOfficial" target='_blank' className="fa fa-facebook mr-1"></a></li>
+						<li><a href='https://www.instagram.com/arziyatofficial/' target='_blank' className="fa fa-instagram"></a></li>
+						<li><a href='https://www.pinterest.com/arziyatcom' target='_blank' className="fa fa-pinterest"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -74,11 +74,10 @@ function Footercol3(){
 	return(
 		<>
 			<div className="widget widget-logo">
-			   <h5 className="footer-title">Our Business Channels</h5>
+			   <h5 className="footer-title">Download Arziyat App</h5>
 			   <ul>
-					<li><Link to={"#"}><img src={logo1} alt=""/></Link></li>
-					<li><Link to={"#"}><img src={logo2} alt=""/></Link></li>
-					<li><Link to={"#"}><img src={logo3} alt=""/></Link></li>
+					<li><i className="fa fa-apple" style={{fontSize:"70px",cursor:"pointer"}}/></li>
+					<li><i className="fa fa-android" style={{fontSize:"70px",cursor:"pointer"}}/></li>
 			   </ul>
 			</div>
 		</>

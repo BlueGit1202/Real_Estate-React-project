@@ -12,18 +12,6 @@ import EventSection from "./EventSection";
 
 //Images
 import SliderImg from "./../../../images/main-slider/slider1.png";
-import main1 from "./../../../images/gallery/main1.jpg";
-
-import services1 from "./../../../images/services/pic1.jpg";
-import services2 from "./../../../images/services/pic2.jpg";
-import services3 from "./../../../images/services/pic3.jpg";
-import services4 from "./../../../images/services/pic4.jpg";
-import services5 from "./../../../images/services/pic5.jpg";
-import services6 from "./../../../images/services/pic6.jpg";
-import services7 from "./../../../images/services/pic7.jpg";
-import services8 from "./../../../images/services/pic8.jpg";
-import services9 from "./../../../images/services/pic9.jpg";
-import services10 from "./../../../images/services/pic10.jpg";
 
 class Index1 extends React.Component {
   componentDidMount() {

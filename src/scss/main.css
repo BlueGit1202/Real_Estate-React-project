@@ -13587,7 +13587,7 @@ label.error {
     margin-bottom: 12px; }
   .banner-three .banner-inner .banner-content {
     position: relative;
-    padding: 50px 0 50px 50px;
+    padding: 25px 0 50px 50px;
     z-index: 1; }
     .banner-three .banner-inner .banner-content:before {
       content: "";
@@ -13604,12 +13604,12 @@ label.error {
     .banner-three {
       height: 565px; }
       .banner-three .banner-inner .title {
-        font-size: 26px; } }
+        font-size: 24px; } }
   @media only screen and (max-width: 575px) {
     .banner-three .banner-inner .banner-content {
       padding: 30px 0 30px 18px; }
     .banner-three .banner-inner .title {
-      font-size: 26px; } }
+      font-size: 24px; } }
 
 .content-blog {
   margin-left: 70px;

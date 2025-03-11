@@ -1,17 +1,9 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
+import grid1 from "../../images/about/about2.jpg";
 
-import grid1 from './../../images/blog/blog-grid/pic1.jpg';
-import grid2 from './../../images/blog/blog-grid/pic2.jpg';
-import grid3 from './../../images/blog/blog-grid/pic3.jpg';
-
-const latestBlog = [
-	{ image: grid1,	 },
-	{ image: grid2,	 },
-	{ image: grid3,	 },
-	{ image: grid2,	 },
-]
+const latestBlog = [{ image: grid1 }];
 /* function SampleNextArrow(props) {
   const { onClick } = props;
   return (
@@ -30,67 +22,83 @@ function SamplePrevArrow(props) {
   );
 } */
 
-class EventSlider extends Component{	
-	render(){
-		var settings = {		
-			arrows: true,
-            slidesToShow: 3,	
-			speed: 3000,
-			navSpeed: 3000,	
-            infinite: true,
-			autoplay: true,
-			responsive: [
-				{
-				  breakpoint: 1200,
-				  settings: {
-					slidesToShow: 3,
-				  }
-				},
-				{
-				  breakpoint: 991,
-				  settings: {
-					slidesToShow: 2,
-				  }
-				},
-				{
-				  breakpoint: 576,
-				  settings: {
-					slidesToShow: 1,
-				  }
-				}
-			]
-        };
-		return(
-				
-				<Slider className="blog-carousel owl-carousel owl-btn-center-lr owl-btn-out " {...settings}>
-					{latestBlog.map((item, index) => (
-						<div className="item p-3"  key={index}>
-							<div className="dlab-card blog-grid">
-							<div className="dlab-media"><img src={item.image} alt=""/></div>
-								<div className="dlab-info">
-									<div className="dlab-meta">
-										<ul>
-											<li className="post-date"><i className="las la-calendar-alt"></i><span>March 29, 2020</span></li>
-											<li className="post-user"><i className="las la-user"></i>By <Link to={"#"}>Deo Admin</Link></li>
-										</ul>
-									</div>
-									<h3 className="dlab-title">
-										<Link to={"/blog-details"}>How Roofing Charge for Their Services Asking the Right Questions</Link>
-									</h3>
-									<p>The goal of this new editor is to make adding rich content to WordPress simple and enjoyable.</p>
-									<div className="dlab-readmore">
-										<Link to={"/blog-details"} className="readmore"><i className="las la-plus"></i> Read More</Link>
-									</div>
-								</div>
-							</div>
-						</div>
-					))}	
-				</Slider>
-						
-		)
-		
-	}
-	
+class EventSlider extends Component {
+  render() {
+    var settings = {
+      arrows: true,
+      slidesToShow: 1,
+      speed: 3000,
+      navSpeed: 3000,
+      infinite: true,
+      autoplay: true,
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    };
+    return (
+      <Slider
+        className="blog-carousel owl-carousel owl-btn-center-lr owl-btn-out "
+        {...settings}
+      >
+        <div className="item p-3">
+          <div className="dlab-card blog-grid">
+            <div className="dlab-media">
+              <img src={grid1} alt="" />
+            </div>
+            <div className="dlab-info">
+              <div className="dlab-meta">
+                <ul>
+                  <li className="post-date">
+                    <i className="las la-calendar-alt" />
+                    <span>March 29, 2020</span>
+                  </li>
+                  <li className="post-user">
+                    <i className="las la-user" />By
+                    <Link to={"#"}>Deo Admin</Link>
+                  </li>
+                </ul>
+              </div>
+              <h3 className="dlab-title">
+                <Link to={"/news-event"}>
+                  Pakistanis Become 5th Largest Buyers of Dubai Property in 2024
+                </Link>
+              </h3>
+              <p>
+                Last year, Pakistanis became the fifth largest buyers of
+                properties in the UAE city of Dubai. In 2024, Indians would
+                continue to be the leading buyers of Dubai real estate, while
+                Pakistanis would move up to the fifth position, surpassing their
+                previous ranking of seventh place, as revealed in a report by
+                the Dubai-based property consultancy, Better Homes..
+              </p>
+              <div className="dlab-readmore">
+                <Link to={"/news-event"} className="readmore">
+                  <i className="las la-plus" /> Read More
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Slider>
+    );
+  }
 }
 
 export default EventSlider;

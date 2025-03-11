@@ -21,7 +21,7 @@ class EventSection extends Component {
             </div>
             <div className="col-md-6 text-md-right">
               <Link
-                to={"/news-event"}
+                to={"/news-event1"}
                 target="_blank"
                 className="btn btn-danger"
               >
