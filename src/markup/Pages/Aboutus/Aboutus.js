@@ -93,7 +93,7 @@ class Aboutus extends Component {
             <div className="container">
               <div className="section-head text-center">
                 <h2 className="title">Site Plan & Master Plan</h2>
-                <div className="dlab-separator bg-primary" />
+                <div className="dlab-separator bg-danger" />
                 <p>
                   With premium finishes and wide-open spaces, each floor plan
                   brings you unparalleled luxury without sacrificing on comfort.

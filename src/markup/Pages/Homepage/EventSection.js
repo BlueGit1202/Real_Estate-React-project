@@ -13,7 +13,7 @@ class EventSection extends Component {
           <div className="row align-items-end section-head">
             <div className="col-md-6">
               <h2 className="title">News & event</h2>
-              <div className="dlab-separator bg-primary" />
+              <div className="dlab-separator bg-danger" />
               <p className="mb-3 mb-md-0">
                 "Latest news and events taking place in the multibillion field
                 of the Real Estate. Keep in touch for the latest news and events

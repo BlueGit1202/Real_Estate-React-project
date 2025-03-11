@@ -25,7 +25,7 @@ class ContactUs1 extends Component {
                 <div className="col-lg-4 col-md-5 col-sm-12">
                   <div className="section-head m-b30">
                     <h2 className="title">Do You Have Any Question?</h2>
-                    <div className="dlab-separator bg-primary" />
+                    <div className="dlab-separator bg-danger" />
                     <h5 className="title-small">CONTACT US</h5>
                   </div>
                   <ul className="contact-question">

@@ -58,7 +58,7 @@
 			&.selected{
 				padding: 0;
 				font-size: 55px;
-				-webkit-text-stroke: 1px #a6611c;
+				-webkit-text-stroke: 1px red:
 				opacity: 1;
 				@include respond("phone") {
 					font-size: 30px;
@@ -1336,7 +1336,7 @@
 	.banner-inner{
 		.banner-content{
 			position: relative;
-			padding: 25px 0 50px 50px;
+			padding: 25px 0 60px 50px;
 			z-index: 1;
 			&:before{
 				content: "";

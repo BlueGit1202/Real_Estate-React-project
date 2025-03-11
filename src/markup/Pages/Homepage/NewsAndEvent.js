@@ -54,7 +54,7 @@ class Index1 extends React.Component {
                     Pakistanis Become 5th Largest Buyers of Dubai Property in
                     2024
                   </h2>
-                  <div className="dlab-separator bg-primary " />
+                  <div className="dlab-separator bg-danger " />
                   <br />
                   Last year, Pakistanis became the fifth largest buyers of
                   properties in the UAE city of Dubai. In 2024, Indians would

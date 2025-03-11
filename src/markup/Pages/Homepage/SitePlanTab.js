@@ -53,7 +53,7 @@ const SitePlanTab = props => {
           <div className="col-md-12 col-lg-6">
             <div className="section-head">
               <h2 className="title">SITE PLAN & MASTER PLAN</h2>
-              <div className="dlab-separator bg-primary" />
+              <div className="dlab-separator bg-danger" />
               <p>
                 With premium finishes and wide-open spaces, each floor plan
                 brings you unparalleled luxury without sacrificing on comfort.

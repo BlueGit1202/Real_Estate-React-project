@@ -102,7 +102,7 @@ class Index1 extends React.Component {
                 <div className="col-md-7 col-lg-6">
                   <div className="section-head">
                     <h2 className="title">About Arziyat</h2>
-                    <div className="dlab-separator bg-primary " />
+                    <div className="dlab-separator bg-danger " />
                     <h4 className="mb-4">
                       SEE WHY OUR RESIDENTS CALL OUR COMMUNITY HOME.
                     </h4>
